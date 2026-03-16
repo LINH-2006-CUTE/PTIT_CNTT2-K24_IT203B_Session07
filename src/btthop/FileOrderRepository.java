@@ -1,9 +1,12 @@
-package apdungDIP;
+package btthop;
 
 import java.util.Scanner;
 
 public class FileOrderRepository implements OrderRepository {
+
     public void save(Order order) {
-        System.out.println("đơn hàng : " + order.orderId);
+
+        System.out.println("Đã lưu đơn hàng ");
+
     }
 }
